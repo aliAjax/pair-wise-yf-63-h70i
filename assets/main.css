@@ -1,0 +1,11 @@
+:root { font-family: Inter, "PingFang SC", "Microsoft YaHei", sans-serif; color: #17364a; background: #f2f7f8; }
+* { box-sizing: border-box; }
+body { margin: 0; background: radial-gradient(circle at 15% 0%, #dff5f1, transparent 32%), #f2f7f8; }
+.page { max-width: 1480px; margin: 0 auto; padding: 28px 22px 60px; }
+.hero { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; margin-bottom: 24px; }
+.hero h1 { margin: 6px 0; font-size: clamp(28px, 4vw, 46px); letter-spacing: -.04em; }
+.hero p { margin: 0; color: #607889; }
+.stat { background: #fff; border: 1px solid #d9e8e8; border-radius: 15px; padding: 16px; box-shadow: 0 8px 24px rgba(30, 80, 90, .06); }
+.stat b { display: block; font-size: 28px; }
+.grid { display: grid; grid-template-columns: 1.05fr .95fr; gap: 20px; }
+@media (max-width: 900px) { .grid { grid-template-columns: 1fr; } .hero { align-items: flex-start; flex-direction: column; } }
