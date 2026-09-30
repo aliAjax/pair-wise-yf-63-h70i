@@ -1,8 +1,8 @@
 {
-  "title": "Multinational Trial Randomization Desk",
-  "subtitle": "Stratified randomization, role isolation, safe unblinding and pending queue",
-  "randomize": "Randomize",
-  "participants": "Participants",
-  "audit": "Safety audit",
-  "pending": "Pending queue"
+  "title": "Multinational Trial Central Randomization Registry",
+  "subtitle": "Central receipt confirmation · site-wide unique registration · role isolation · ordered offline replay · audit trail",
+  "randomize": "Enrollment & central registry",
+  "participants": "Centrally registered participants",
+  "audit": "Safety audit (append-only)",
+  "pending": "Pending queue (recoverable replay)"
 }
